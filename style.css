@@ -1,0 +1,247 @@
+body{
+    font: 16px 'Montserrat', sant-serif;
+    background-color: rgb(255, 255, 255)
+}
+
+.photo {
+    border: 5px solid rgb(0, 0, 0);
+    margin:25px;
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.icon{
+    margin:25px;
+    width: 450px;
+    height: 400px;
+}
+
+.mini_photo{
+    margin:25px;
+    width: 400px;
+    height: 400px;
+    border: 5px solid rgb(0, 0, 0)
+}
+
+.variant{
+    margin:25px;
+    width: 500px;
+    height: 400px;
+    border: 5px solid rgb(0, 0, 0)
+}
+
+.mini_icon{
+    margin: 170px;
+    width: 110px;
+    height: 110px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 250px;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    padding: 10%;
+    border: 1px solid black;
+    background: black;
+    border-radius: 20px;
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+    margin: 50px;
+}
+
+.button:hover {
+    transform: translate();
+    width: 225px;
+    height: 125px;
+    font-size: 30px;
+}
+
+.button:active {
+    transform: translate();
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+}
+
+
+.h {
+    font-weight: 250px;
+    color: rgb(25, 25, 25);
+    font-family:'Courier New', Courier, monospace;
+    margin: 50px;
+}
+
+.hz {
+    font-weight: 250px;
+    color: rgb(25, 25, 25);
+    font-family:'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+.zag {
+    font-weight: 100px;
+    color: rgb(25, 25, 25);
+    font-family:'Courier New', Courier, monospace;
+    margin: 50px;
+    font-size: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(25, 25, 25);
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    font-size: 35px;
+}
+
+a:active{
+    transform: translate();
+    width: 90%;
+    height: 90%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.wrapper {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.wrapper__title {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.user input {
+    padding: 5px;
+    border: 1px solid #000000;
+    background: 16px 'Montserrat', sant-serif;
+    border-radius: 5px;
+    font: 16px 'Montserrat', sant-serif;
+    width: 100%;
+    color: #000000;
+}
+
+.user input:focus,
+.user input:active {
+    border: 1px solid #000000;
+    outline: none;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.user-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.date {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.select select {
+    width: 300px;
+    font: 16px 'Montserrat', sant-serif;
+    background: 16px 'Montserrat', sant-serif;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.select option {
+    background: #272727;
+}
+
+.select textarea {
+    background: 16px 'Montserrat', sant-serif;
+    font: 16px 'Montserrat', sant-serif;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.select textarea:focus,
+.select textarea:active {
+    border: 1px solid #000000;
+    outline: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    width: 10%;
+    padding: 10px;
+    min-width: 300px;
+    cursor: pointer;
+    align-self: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #272727;
+    font: 50px 'Montserrat', sant-serif;
+    color: #fff;
+}
+
+
+

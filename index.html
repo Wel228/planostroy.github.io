@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <title>ООО "Планострой"</title>  
+</head>
+<body>
+    <header>
+        <img src="miniicon.png" class="mini_icon">
+        <h1 class="zag">Работа в строительной<br>
+            компании ООО "Планострой"
+        </h1>
+        <nav>
+            <a class="a" href="#inf">Информация</a>
+            <a class="a" href="#zayav">Заявка</a>
+        </nav>
+    </header>
+    <main>
+        <img src="stroyka.jpg" class="photo">
+        <div>
+            <h1 class="h">Это работа, о<br>
+                которой вы мечтали.<br>
+                Мы собрали в себе всё<br>
+                самое лучшее со всех <br>
+                профессий для вас.</h1>
+            <img src="icon.jpg" class="icon" />
+        </div>
+        <h2 class="h"></h2>
+        <div>
+            <img src="obed.jpg" class="mini_photo" id="inf"/>
+            <h1 class="h">Прекрасное ежедневное<br>
+                двухразовое питание<br>
+                едой, приготовленной<br>
+                профессиональными поварами.<br>
+                </h1>
+        </div>
+        <div>
+            <h1 class="h">Дружный коллектив состоит<br>
+                из высокообразованных<br>
+                специалистов, которые чуствовали,<br>
+                что эта работа - их призвание!<br>
+                </h1>
+            <img src="ing.jpg" class="mini_photo" />
+        </div>
+        <div>
+            <img src="money.jpg" class="mini_photo"/>
+            <h1 class="h">Большие заплаты<br>
+                позволяют вам жить<br>
+                ни в чём себе не отказывая!<br>
+                </h1>
+        </div>
+        <div>
+            <h1 class="h">У нас вы можете<br>
+                стать кем угодно:<br>
+                от строителя<br>
+                до главного инженера<br>
+                или менеджера.<br>
+                </h1>
+            <img src="variant.jpg" class="variant" />
+        </div>
+        <div class="wrapper">
+           
+            <h2 class="wrapper__title h" id="zayav">Заявка</h2>
+           
+            <form class="form">
+                <div class="user">
+                    <ul class="user-info">
+                        <li class="user-info__item hz">
+                            <label for="name">Ф.И.О</label>
+                            <input type="text" name="name" id="name" placeholder="Введите ваше ФИО">
+                        </li>
+                        <li class="user-info__item hz">
+                            <label for="nomer">Номер телефона</label>
+                            <input type="text" name="nomer" id="nomer" placeholder="Введите ваш номер">
+                        </li>
+                        <li class="user-info__item hz">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="Введите ваш e-mail">
+                        </li>
+                    </ul>
+
+                    <ul class="date">
+                            <li class="user-info__item hz">
+                            <label for="date">Укажите дату собеседования</label>
+                            <input type="date" name="" id="date">
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="user">
+                    <ul class="user-info">
+                        <li class="user-info__item hz">
+                            <h3 class="user__title hz">Выберете форму собеседования</h3>
+                            <label for="office">В офисе по адресу ул.Пушкина, дом Колотушкина</label>
+                            <input type="radio" id="office">
+                        </li>
+                        <li class="user-info__item hz">
+                            <label for="online">Онлайн</label>
+                            <input type="radio" id="online">
+                        </li>
+                    </ul>
+                    <button class="button">подать заявку</button>
+            </form>
+        </div>
+        <h2 class="h" id="cont">Наши контакты</h2>
+        <h3 class="h">Наш номер: +1-234-567-89-01</h3>
+        <h3 class="h">Наш телеграмм: @Planstroy_official</h3>
+        <h3 class="h">Наша email: planstroy@gmail.com</h3>
+    </main>
+</body>
+</html>
